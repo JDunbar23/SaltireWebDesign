@@ -1,0 +1,315 @@
+
+body
+{
+
+  font-family: Arial, Helvetica, sans-serif; /* Select font style */
+  font-size: 15px; /* Set font size */
+  line-height: 1.5; /* Set space between text*/
+  padding: 0;
+  margin: 0;
+  background-color: lightgrey;
+}
+
+
+/* ul tags */
+ul
+{
+
+  margin: 0; /* Brings the red line closer */
+  padding: 0; /* aligns the text with the acme web design logo */
+}
+
+
+.container
+{
+
+  width: 80%; /* Sets the content to be 80% its full size*/
+  margin: auto; /* Realigns the content */
+  overflow: hidden; /* If content goes off display this prevents a scrollbar appearing */
+}
+
+
+.submit
+{
+
+  height: 38px; /* increases button height */
+  padding-left: 20px; /* increases button length left */
+  padding-right: 20px; /* increases button length right */
+  background: red; /* changes button colour to red */
+  border: 0; /* removes border around button */
+  color: white; /* changes text colour to white */
+}
+
+
+.dark
+{
+
+  background: darkslategrey;
+  color: white;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+/* Header Section */
+header
+{
+
+  background: darkslategrey; /* Change background colour to darkslategrey */
+  color: white; /* Change font colour to white */
+  padding-top: 30px; /* Adds space on the top of the acme web design logo */
+  min-height: 70px; /* Set min Height when screen adjusts to smaller device*/
+  border-bottom: red 5px solid; /* Adds red border to bottom of the header */
+}
+
+
+/* a tags in the header */
+header a
+{
+
+  color: white; /* Change font colour to white */
+  text-decoration: none; /* removes the underline under text */
+  text-transform: uppercase; /* makes all text capitals */
+  font-size: 16px; /* change font size */
+}
+
+
+/* li tags in the header */
+header li
+{
+
+  float: left; /* Sets the text to the left of the page and in a line */
+  display: inline; /* removes the bulletpoints */
+  padding: 0 20px 0 20px; /* Adds padding on the left and right of each bit of text */
+}
+
+
+/* branding id in the header */
+header #branding
+{
+
+  float: left;
+}
+
+
+/* targets the h1 in the branding id in the header */
+header #branding h1
+{
+
+  margin: 0; /* centres the logo from the top and bottom of the header */
+}
+
+
+/* targets the nav in the header */
+header nav
+{
+
+  float: right; /* sets the list on the right of the header */
+  margin-top: 10px; /* lines up the list with the logo */
+}
+
+
+/* targets the highlight, current class and a tags in the header */
+header .highlight, header .current a
+{
+
+  color: red;
+  font-weight: bold;
+}
+
+
+/* targets the a tags in the header when you hover the cursor over them */
+header a:hover
+{
+
+  color: lightgrey;
+}
+
+
+/* Showcase Section */
+#showcase
+{
+
+  min-height: 600px; /* Set the height of the space where the image shown */
+  background: url("../images/showcase1.jpg") no-repeat; /* Displays image in the background and doesn't repeat the image */
+  text-align: center; /* aligns the text */
+  color: white; /* Set the text colour to white */
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* adds stroke to text */
+  background-size: cover; /* stretches image to cover page */
+}
+
+
+/* targets the h1 tags in the showcase */
+#showcase h1
+{
+
+  margin-top: 130px; /* moves text down */
+  font-size: 80px; /* increases text size */
+  margin-bottom: 10px; /* moves sub text closer */
+}
+
+
+/* targets the p tags in the showcase */
+#showcase p
+{
+
+  font-size: 30px; /* increases text size */
+}
+
+
+/* Newsletter Section */
+#newsletter
+{
+
+  padding: 15px;
+  background: darkslategrey; /* Change background colour to darkslategrey */
+  color: white; /* Set the text colour to white */
+}
+
+
+/* targets the h1 in the Newsletter */
+#newsletter h1
+{
+
+  float: left; /* sets the h1 on the left of the newsletter */
+}
+
+
+/* targets the form in the Newsletter */
+#newsletter form
+{
+
+  float: right; /* sets the form on the right of the newsletter */
+  margin-top: 18px; /* moves it down */
+}
+
+
+/* targets the email input in the Newsletter */
+#newsletter input[type="email"]
+{
+
+  /* increases input box size */
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+
+/* Boxes Section */
+#boxes
+{
+
+  margin-top: 20px; /* moves it down */
+}
+
+
+/* targets the box class in the Boxes */
+#boxes .box
+{
+
+  float: left; /* sets the boxes to the left */
+  width: 30%; /* sets width of the images layout */
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* targets the images in box class in the Boxes */
+#boxes .box img
+{
+
+  width: 100px; /* sets the image size */
+}
+
+
+/* Aside Sidebar Section on about page*/
+aside#sidebar /* must be all 1 word to work */
+{
+
+  float: right; /* set to the right */
+  width: 30%; /* sets the size */
+  margin-top: 10px; /* moves it down */
+}
+
+
+/* Article main-col Section on about page*/
+article#main-col /* must be all 1 word to work */
+{
+
+  float: left; /* set to the left */
+  width: 65%; /* sets the size */
+}
+
+
+/* targets the ul and li on the Services page */
+ul#services li
+{
+
+  list-style: none;
+  padding: 10px;
+  border: red solid 3px; /* creates border */
+  margin-bottom: 5px; /* adds space betweem boxes */
+}
+
+
+/* targets the textarea on the sidebar of the Services page */
+aside#siderbar textarea
+{
+
+  width: 90%;
+  padding: 5px;
+}
+
+
+/* Footer Section */
+footer
+{
+
+  padding: 20px;
+  margin-top: 20px;
+  color: white;
+  background-color: darkslategrey;
+  text-align: center;
+}
+
+
+/* Adjusting for smaller devices */
+
+/* Media Queries */
+@media(max-width: 768px)
+{
+
+  header #branding, header nav, header nav li, #newsletter h1, #newsletter form, #boxes .box, article#main-col, aside#sidebar /* Targets all of these when screen is small */
+  {
+
+    /* Centres all content and keeps same size */
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header
+  {
+
+    padding-bottom: 20px; /* Adds space between home, about, services and the red line */
+  }
+
+  #showcase h1
+  {
+
+    /* Shrinks the font and realigns */
+    margin-top: 40px;
+    font-size: 60px;
+  }
+
+  button
+  {
+
+    /* Makes button larger when screen is smaller and adds space */
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+  }
+}
