@@ -61,7 +61,7 @@ header
   color: white; /* Change font colour to white */
   padding-top: 30px; /* Adds space on the top of the acme web design logo */
   min-height: 70px; /* Set min Height when screen adjusts to smaller device*/
-  border-bottom: red 5px solid; /* Adds red border to bottom of the header */
+  border-bottom: deepskyblue 5px solid; /* Adds deepskyblue border to bottom of the header */
 }
 
 
@@ -115,7 +115,7 @@ header nav
 header .highlight, header .current a
 {
 
-  color: red;
+  color: deepskyblue;
   font-weight: bold;
 }
 
@@ -249,7 +249,7 @@ ul#services li
 
   list-style: none;
   padding: 10px;
-  border: red solid 3px; /* creates border */
+  border: darkslategrey solid 3px; /* creates border */
   margin-bottom: 5px; /* adds space betweem boxes */
 }
 
@@ -293,7 +293,7 @@ footer
   header
   {
 
-    padding-bottom: 20px; /* Adds space between home, about, services and the red line */
+    padding-bottom: 20px; /* Adds space between home, about, services and the border line */
   }
 
   #showcase h1
